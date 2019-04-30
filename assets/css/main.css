@@ -2979,9 +2979,9 @@ input, select, textarea {
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
 			border-radius: 100%;
-			border: solid 1px;
+			border: solid 2px;
+			transform: scaleX(-1) rotate(9deg);
 		}
 
 			.spotlight .image img {
@@ -3100,7 +3100,7 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 150px;
+					max-width: 12rem;
 					border-radius: 50%;
 				}
 
@@ -3557,7 +3557,7 @@ input, select, textarea {
 		}
 
 		#main .spotlight .image {
-			border-color: #dddddd;
+			border-color: #aca8b6;
 		}
 
 		#main > .main {
